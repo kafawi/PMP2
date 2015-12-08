@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pi (sensor)*>
+<!ATTLIST pi name CDATA #REQUIRED ip CDATA #REQUIRED>
+<!ELEMENT sensor (typ?, wert?)>
+<!ATTLIST sensor ort CDATA #REQUIRED>
+<!ELEMENT typ (#PCDATA)>
+<!ELEMENT wert (#PCDATA)>
